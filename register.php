@@ -84,7 +84,7 @@ $conn->close();
 <head>
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
-<title>Multi-Step Registration</title>
+<title>Student Registration Form</title>
 <link rel="stylesheet" href="style_regis.css" />
 <style>
   /* Highlight invalid fields */

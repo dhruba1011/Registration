@@ -1,14 +1,15 @@
 
   body { 
     font-family: Arial, sans-serif; 
-    background: #f8f9fa; 
+    font-weight: bold;
+    background-image: linear-gradient(to left, rgb(54, 136, 212), rgb(238, 236, 137));
     margin: 0; 
     padding: 20px; 
   }
   form { 
     max-width: 800px; 
     margin: auto; 
-    background-image: linear-gradient(to left, rgb(255, 98, 98), rgb(238, 236, 137)); 
+    background-color:#fcefb4; 
     padding: 20px; 
     border-radius: 8px; 
     box-shadow: 0 2px 8px rgba(0,0,0,0.1); 
