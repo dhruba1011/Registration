@@ -1,5 +1,7 @@
 <?php
 // Start session and get registration details
+// dhrubajyoti SINGHA 
+changed from mobile
 session_start();
 
 if (empty($_SESSION['reg_details'])) {
