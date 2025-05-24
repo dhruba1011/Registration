@@ -5,7 +5,7 @@ if (empty($_SESSION['reg_details'])) {
     header('Location: register.php');
     exit;
 }
-
+// Last change today 
 $d = $_SESSION['reg_details']; // Do NOT unset here — keep it for JS use
 ?>
 <!DOCTYPE html>
