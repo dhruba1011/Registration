@@ -101,3 +101,20 @@ insert INTO `settings` (`session`, `cita`, `dita`, `adita`, `cdta`, `ddta`, `cfa
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
 /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
+
+-- batch, regno, loginid, name, fat_name, course, exam_date, exam_time
+
+create table `exam` (
+  `batch` varchar(10) DEFAULT NULL,
+  `regno` varchar(25) DEFAULT NULL,
+  `loginid` varchar(25) DEFAULT NULL,
+  `sname` varchar(30) DEFAULT NULL,
+  `fname` varchar(30) DEFAULT NULL,
+  `course` varchar(10) DEFAULT NULL,
+  `exam_date` date DEFAULT NULL,
+  `exam_time` time DEFAULT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;  
+insert into `exam` (`batch`, `regno`, `loginid`, `sname`, `fname`, `course`, `exam_date`, `exam_time`) values
+('25001', 'YS-HBA/78-7500123/20', 'YS-HBA/78-7500123/20', 'PARIMAL BISWAS', 'TSANJAY BISWAS', 'CITA', '2025-05-06', '10:00:00'),
+('25001', 'YS-HBA/78-7507723/2026', 'YS-HBA/78-7507723/2026', 'PARIMAL BISWAS', 'SANJAY BISWAS', 'CITA', '2025-04-25', '10:00:00'),
+('45002', 'YS-HBA/77-7700125/2025', 'YS-HBA/77-7700125/2025', 'SITARAMAN', 'VEDANT', 'ADITA', '2025-05-08', '10:00:00');  
